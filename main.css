@@ -1,0 +1,325 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+  
+  opacity: 0.9;
+  font-size: 16px;
+  text-orientation: horizontal;
+  margin:0;
+
+
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+
+
+}
+header {
+  width: 100%;
+  position: fixed;
+ 
+  height: 4rem;
+  background-color:rgb(240, 237, 245);
+
+  align-items: center;
+}
+
+header img,h4 {
+  height: 2rem;
+  margin-left: 24px;
+}
+
+header h4 {
+  font-size: 22px;
+}
+
+.container{
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid black;
+  align-items: center;
+  background-color: rgb(240, 237, 245);
+
+ }
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+  margin-right: 1.5rem;
+   height: 2rem;
+}
+
+nav span {
+  
+  padding: 20px .5rem;
+  font-size: 20px;
+  color: black;
+
+ }
+ 
+ .banner {
+  display: flex;
+  
+  background-color: rgb(217, 214, 206);
+ }
+ 
+ .column1 {
+  display:flex;
+    flex-direction: column;
+    margin:4rem 1.5rem;
+  
+ }
+ .two {
+  display:flex;
+
+  flex-direction: column;
+
+ }
+.first.column1{
+  width:60%;
+  margin-left: 24px;
+  margin-right: 
+ }
+ .imgbanner img { 
+  width:100%;
+ 
+ }
+ 
+ 
+ .two.column1 {
+  width:40%;
+  margin-left: 5px;
+  /*align-items: center;*/
+  justify-content: center;
+  text-align: left;
+ }
+ 
+
+
+ .banner .two .h2 {
+  
+ 
+  margin-left: 1.5rem;
+ }
+ .banner .two .box {
+   padding:8px 12px;
+   background-color: black;
+   color: white;
+   text-align: center;
+ }
+
+.second{
+  display:flex;
+  background-color: rgb(240, 242, 247);
+  
+ 
+ }
+
+
+.lessons {
+  background: rgb(217, 214, 206);
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.inform.column {
+   width: 60%;
+   margin: 2rem 1.5rem;
+  
+ 
+}
+.inform.column img {
+  width: 100%;
+  
+
+
+}
+.text {
+  width: 100%;
+}
+
+.text2{
+  width:60%;
+}
+
+.information.column{ 
+  margin-left: 24px;
+  width: 40%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.information.info img{
+  width:35%;
+
+
+}
+
+.info {
+  display: flex;
+
+}
+
+.info .time {
+  text-align: left;
+  margin-left: 1rem;
+}
+.boxes {
+  display: flex;
+  margin: 16px 14px;
+}
+.boxes img{
+  width: 35%;
+}
+
+
+
+.third {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: rgb(217, 214, 206);
+  
+}
+.title2 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+
+}
+
+.learning {
+  display:flex;
+  justify-content:center;
+  /*align-content: center;*/
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin-left: 72px;
+  margin-right: 40px;
+
+}
+.software img {
+  background-color: rgb(255,255,255);
+  width: 100px;
+  margin: 1rem 1rem;
+  }
+  .text4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .text4 h4 {
+    margin-top: .5rem;
+  }  
+  
+
+.study {
+
+  background-color: rgb(255,255,255);
+  width: 30%;
+  margin-bottom: 32px;
+  margin-right: 32px;
+  box-shadow: 0 2px 4px 0 grey;
+}
+.study img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  
+}
+.fourth {
+  display: flex;
+  flex-direction: column;
+}
+
+.both {
+  display: flex;
+  justify-content: center;
+
+}
+
+.reserch {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width:60%;
+  
+}
+.reserch video {
+  width:100%;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 2rem;
+}
+.test {
+   display: flex;
+  flex-direction: column;
+  width:40%;
+  margin-top: 2rem;
+
+}
+
+.test .boxes2 {
+   display: flex;
+   justify-content: center;
+   margin-left: 2rem;
+
+  
+}
+.colored {
+  background: rgb(242, 234, 233);
+ }
+
+.test .boxes2 img {
+  width: 35%;
+ margin: 1rem;
+}
+
+/*.boxes2 .finale {
+  text-align: left;
+  margin-left: 1rem;
+}*/
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  padding:.5rem 2rem;
+
+}
+.copyright, footer a {
+  font-size: 0.75rem;
+}
+
+.text2 {
+  text-align: left;
+  
+}
+.finale {
+  display:flex;
+  justify-content: ;
+  flex-direction: column;
+  width: 65%;
+  text-align: left;
+  margin-left: 16px;
+ 
+ 
+}
+
+.text2 {
+   display:flex;
+  justify-content: ;
+  flex-direction: column;
+  width: 65%;
+  text-align: left;
+  margin-left: 16px;
+
+}
